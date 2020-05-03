@@ -18,3 +18,10 @@ desc student;
 -- rename table name
 rename table student to mystudent;
 desc mystudent;
+
+-- insert all values
+insert into mystudent values(1, 'jhon', 22, 'asjdghaieu');
+select * from mystudent;
+
+-- to insert only specific values
+insert into mystudent (id,age) values(2,24);
