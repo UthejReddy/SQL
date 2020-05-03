@@ -1,4 +1,4 @@
-use uthej;
+use uthej;-- uthej is the database
 
 create table emp(id integer, name varchar(10),age int);
 desc emp;
