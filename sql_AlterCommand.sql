@@ -13,3 +13,7 @@ desc student;
 -- delete an column from the table
 alter table student drop column marks;
 desc student;
+
+-- rename table name
+rename table student to mystudent;
+desc mystudent;
