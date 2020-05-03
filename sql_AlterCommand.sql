@@ -3,6 +3,7 @@ set sql_safe_updates=0;
 
 -- alter command is used to do changes in the tables
 -- create a table student
+-- creating a table comes under Data Definition Language
 create table student(id int,name varchar(10),age int,marks int);
 desc student;
 
