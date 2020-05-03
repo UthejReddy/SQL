@@ -3,6 +3,7 @@ set sql_safe_updates=0;
 
 -- create a new table
 -- here datatype date, int, varchar, datetime 
+-- create comes under Data Definition Language
 create table patient1(pid int,name varchar(10),dob date,doa datetime);
 desc patient1;
 
