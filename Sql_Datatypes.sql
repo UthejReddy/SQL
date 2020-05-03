@@ -7,6 +7,7 @@ create table patient1(pid int,name varchar(10),dob date,doa datetime);
 desc patient1;
 
 -- insert values into the table
+-- insert comes under Data Manipulating Language
 insert into patient1 values(1,'sham','2002-02-22','2003-06-11 05:04:00');
 select * from patient1;-- shows the inserted the values in the table
 show tables;-- shows all available tables
