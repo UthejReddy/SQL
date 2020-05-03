@@ -21,5 +21,11 @@ set sql_safe_updates=0;-- this command enables to do changes in the table
 delete from employee where id = 3;-- delete the row with id 3
 select * from employee;
                                                
+select name from employee;-- to get only the name column
+
+select * from employee where id =3;-- to get perticular row
+
+select * from employee limit 2;-- to get limit of records to 2
+                                               
  -- update comes under DAta Manupulating Language                                              
 update employee set name ='jhonny' where id=2;-- allows the user to do changes in the table
