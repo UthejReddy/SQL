@@ -1,4 +1,4 @@
-use uthej;
+use uthej;-- uthej is the database
 set sql_safe_updates=0;
 
 -- alter command is used to do changes in the tables
