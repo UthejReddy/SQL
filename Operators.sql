@@ -33,3 +33,14 @@ select null = 0;-- this will tell that null is 0 or not.
 select null <=> "";-- this will tell that null is blank or not.
 
 select null <=> null;-- this will tell that null is equal to null or not.
+
+select * from emp1 where age between 23 and 30;-- get the records whose age is between 23 and 30.
+
+select * from emp1 where age in (22,30);-- to get the specific records.
+
+select * from emp1 where name like 'o%';-- to get the specific records.
+
+select * from emp1 where name like 'o_';-- to get the specific records.
+
+select * from emp1 where name like 'o%' and (age >22);-- run 2 operators at same time.
+
